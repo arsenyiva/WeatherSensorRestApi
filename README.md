@@ -1,15 +1,19 @@
 REST API — для метеорологического датчика, который позволяет получать данные в формате JSON и сохранять их в базу данных. При запуске приложения сразу будут отправлены тестовые данные. 
 Для регистрации сенсора и данных отправьте JSON с помощью Postman.
 Регистрация сенсора  - /sensors/registration  
+```json
 {
-    "name": "Sensor_name"
+"name": "Sensor_name"
 }
+```
 Регистрация данных /measurements/add 
+```json
 {
-    "value" : 1.1,
-    "raining": true,
-    "sensor" : {
-        "name" : "Sensor_name"
-    }
+"value": 1.1,
+"raining": true,
+"sensor": {
+"name": "Sensor_name"
 }
+}
+```
 
