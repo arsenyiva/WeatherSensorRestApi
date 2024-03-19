@@ -9,11 +9,11 @@ REST API — для метеорологического датчика, кот�
 Регистрация данных /measurements/add 
 ```json
 {
-"value": 1.1,
-"raining": true,
-"sensor": {
-"name": "Sensor_name"
-}
+    "value" : 11.11,
+    "raining": true,
+    "sensor" : {
+        "name" : "Sensor_name"
+    }
 }
 ```
 
